@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DesignPartten/Addressables/Addressables.unity
+- path: Assets/DesignPattern/Addressables/Addressables.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
