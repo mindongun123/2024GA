@@ -46,17 +46,31 @@
      <Compile Include="Assets\DesignPattern\Observer\ObserverAction\OpenAppFacebook.cs" />
      <Compile Include="Assets\DesignPattern\Observer\ObserverAction\OpenDiscordApp.cs" />
      <Compile Include="Assets\DesignPattern\StateMachine\Attack.cs" />
+     <Compile Include="Assets\TestDesignPattern\Command\ViewCommand.cs" />
      <Compile Include="Assets\DesignPattern\Command\CommandGame.cs" />
      <Compile Include="Assets\DesignPattern\StateMachine\StateMachine.cs" />
      <Compile Include="Assets\DesignPattern\Command\CommandController.cs" />
      <Compile Include="Assets\DesignPattern\Addressables\Enemy.cs" />
      <Compile Include="Assets\DesignPattern\Addressables\Addressable.cs" />
+     <Compile Include="Assets\TestDesignPattern\Singleton\SingletonComponent.cs" />
+     <Compile Include="Assets\TestDesignPattern\Singleton\GetPropertyInSingleton.cs" />
      <Compile Include="Assets\DesignPattern\Observer\LightEnable.cs" />
      <Compile Include="Assets\DesignPattern\StateMachine\Character.cs" />
+     <Compile Include="Assets\TestDesignPattern\Observer\ViewObserver.cs" />
+     <Compile Include="Assets\TestDesignPattern\Command\ICommand.cs" />
+     <Compile Include="Assets\TestDesignPattern\Observer\ActionObserver.cs" />
+     <Compile Include="Assets\TestDesignPattern\Command\CommandController.cs" />
      <Compile Include="Assets\DesignPattern\Command\ItemPush.cs" />
+     <Compile Include="Assets\TestDesignPattern\Observer\ObjectObserver.cs" />
      <Compile Include="Assets\DesignPattern\Observer\ObserverAction\ObserverAction.cs" />
+     <Compile Include="Assets\TestDesignPattern\Command\ObjectCommand1.cs" />
      <Compile Include="Assets\DesignPattern\Observer\FanEnable.cs" />
      <Compile Include="Assets\DesignPattern\Singleton\SingletonComponent.cs" />
+     <Compile Include="Assets\TestDesignPattern\StateMachine\StateMachine.cs" />
+     <Compile Include="Assets\TestDesignPattern\StateMachine\ObjectCharactor.cs" />
+     <Compile Include="Assets\TestDesignPattern\StateMachine\ItemState.cs" />
+     <Compile Include="Assets\TestDesignPattern\Pool\ObjectPool.cs" />
+     <Compile Include="Assets\TestDesignPattern\Pool\PoolController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

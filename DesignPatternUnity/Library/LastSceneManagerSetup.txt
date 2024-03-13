@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/DesignPattern/Addressables/Addressables.unity
+- path: Assets/TestDesignPattern/Pool/PoolTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
