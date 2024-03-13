@@ -36,27 +36,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\DesignPartten\StateMachine\Idle.cs" />
-     <Compile Include="Assets\DesignPartten\StateMachine\Die.cs" />
-     <Compile Include="Assets\DesignPartten\Singleton\SingletonExample.cs" />
-     <Compile Include="Assets\DesignPartten\StateMachine\Attack.cs" />
-     <Compile Include="Assets\DesignPartten\StateMachine\StateMachine.cs" />
-     <Compile Include="Assets\DesignPartten\StateMachine\Character.cs" />
-     <Compile Include="Assets\DesignPartten\Singleton\SingletonComponent.cs" />
-     <Compile Include="Assets\DesignPartten\Observer\ControllerObserver.cs" />
-     <Compile Include="Assets\DesignPartten\Observer\LightEnable.cs" />
-     <Compile Include="Assets\DesignPartten\Observer\FanEnable.cs" />
-     <Compile Include="Assets\DesignPartten\Observer\ObserverAction\ObserverAction.cs" />
-     <Compile Include="Assets\DesignPartten\Observer\ObserverAction\OpenAppFacebook.cs" />
-     <Compile Include="Assets\DesignPartten\Observer\ObserverAction\OpenDiscordApp.cs" />
-     <Compile Include="Assets\DesignPartten\ActionGame.cs" />
-     <Compile Include="Assets\DesignPartten\Command\ICommand.cs" />
-     <Compile Include="Assets\DesignPartten\Command\CommandController.cs" />
-     <Compile Include="Assets\DesignPartten\Command\ItemPush.cs" />
-     <Compile Include="Assets\DesignPartten\Command\CommandGame.cs" />
-     <Compile Include="Assets\DesignPartten\Command\Player.cs" />
-     <Compile Include="Assets\DesignPartten\Addressables\Addressable.cs" />
-     <Compile Include="Assets\DesignPartten\Addressables\Enemy.cs" />
+     <Compile Include="Assets\DesignPattern\StateMachine\Idle.cs" />
+     <Compile Include="Assets\DesignPattern\StateMachine\Die.cs" />
+     <Compile Include="Assets\DesignPattern\Command\Player.cs" />
+     <Compile Include="Assets\DesignPattern\ActionGame.cs" />
+     <Compile Include="Assets\DesignPattern\Command\ICommand.cs" />
+     <Compile Include="Assets\DesignPattern\Observer\ControllerObserver.cs" />
+     <Compile Include="Assets\DesignPattern\Singleton\SingletonExample.cs" />
+     <Compile Include="Assets\DesignPattern\Observer\ObserverAction\OpenAppFacebook.cs" />
+     <Compile Include="Assets\DesignPattern\Observer\ObserverAction\OpenDiscordApp.cs" />
+     <Compile Include="Assets\DesignPattern\StateMachine\Attack.cs" />
+     <Compile Include="Assets\DesignPattern\Command\CommandGame.cs" />
+     <Compile Include="Assets\DesignPattern\StateMachine\StateMachine.cs" />
+     <Compile Include="Assets\DesignPattern\Command\CommandController.cs" />
+     <Compile Include="Assets\DesignPattern\Addressables\Enemy.cs" />
+     <Compile Include="Assets\DesignPattern\Addressables\Addressable.cs" />
+     <Compile Include="Assets\DesignPattern\Observer\LightEnable.cs" />
+     <Compile Include="Assets\DesignPattern\StateMachine\Character.cs" />
+     <Compile Include="Assets\DesignPattern\Command\ItemPush.cs" />
+     <Compile Include="Assets\DesignPattern\Observer\ObserverAction\ObserverAction.cs" />
+     <Compile Include="Assets\DesignPattern\Observer\FanEnable.cs" />
+     <Compile Include="Assets\DesignPattern\Singleton\SingletonComponent.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -628,112 +628,112 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Addressables">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Addressables.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.CacheServer">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\DesignPatternUnity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\2024GA\DesignPatternUnity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
